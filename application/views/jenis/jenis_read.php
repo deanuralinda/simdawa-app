@@ -21,6 +21,7 @@
                 <div class="card">
                     <div class="card-header">
                         <a href="<?= base_url('jenis/tambah') ?>" class="btn btn-sm btn-success float-right"><i class="fas fa-plus">Tambah Data</i></a>
+                        <a href="<?= base_url('jenis/cetak') ?>" class="btn btn-sm btn-info mr-1 float-right"><i class="fas fa-print"> Cetak Data</i></a>
                     </div>
                     <div class="card-body">
                         <table class="table table-bordered" id="mytabel">
